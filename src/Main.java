@@ -13,8 +13,13 @@ public class Main {
 
         //Задание 3.
         System.out.println("Циклы ч.1. ДЗ. Задача 3");
-        for (int i = 0; i <= 17 ; i++) {
+        for (int i = 0; i <= 17; i++) {
             System.out.println(i++); }
+
+        //Задание 4.
+        System.out.println("Циклы ч.1. ДЗ. Задача 4");
+        for (int i = 10; i >= -10; i-- ) {
+            System.out.println(i); }
 
 
     }
