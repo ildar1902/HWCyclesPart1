@@ -40,25 +40,24 @@ public class Main {
         for (int i = 1; i <= 512; i = i * 2) {
             System.out.println(i); }
 
-        //ДЗ-2.
+        //ДЗ-3.
 
         //Задание 1.
-   //     System.out.println("Циклы ч.1. ДЗ-3. Задача 1");
-  //    int deposiyAmount = 29000;
-  //      int total = 0;
-   //     for (int i = 1; i <= 12; i++) {
-    //        total = total + deposiyAmount;
-    //        System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей"); }
- // сделал это чтобы для себя видеть полностью код предыдущей задачи и чтобы переменные не пересекались
+        System.out.println("Циклы ч.1. ДЗ-3. Задача 1");
+      int depositAmount1 = 29000;
+       int AmountOfSavings1 = 0;
+        for (int i = 1; i <= 12; i++) {
+          AmountOfSavings1 = AmountOfSavings1 + depositAmount1;
+           System.out.println("Месяц " + i + " сумма накоплений равна " + AmountOfSavings1 + " рублей"); }
 
         //Задание 2.
         System.out.println("Циклы ч.1. ДЗ-3. Задача 2");
-        int deposiyAmount = 29000;
-        int total = 0;
+        int depositAmount = 29000;
+        int AmountOfSavings = 0;
         for (int i = 1; i <= 12; i++) {
-            total = total + total / 100;
-            total = total + deposiyAmount;
-            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей"); }
+            AmountOfSavings = AmountOfSavings + AmountOfSavings / 100;
+            AmountOfSavings = AmountOfSavings + depositAmount;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + AmountOfSavings + " рублей"); }
 
 
 
