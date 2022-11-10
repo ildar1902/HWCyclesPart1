@@ -40,6 +40,17 @@ public class Main {
         for (int i = 1; i <= 512; i = i * 2) {
             System.out.println(i); }
 
+        //ДЗ-2.
+
+        //Задание 1.
+        System.out.println("Циклы ч.1. ДЗ-3. Задача 1");
+        int deposiyAmount = 29000;
+        int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total = total + deposiyAmount;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей"); }
+
+
 
 
 
