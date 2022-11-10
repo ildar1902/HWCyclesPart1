@@ -43,13 +43,22 @@ public class Main {
         //ДЗ-2.
 
         //Задание 1.
-        System.out.println("Циклы ч.1. ДЗ-3. Задача 1");
+   //     System.out.println("Циклы ч.1. ДЗ-3. Задача 1");
+  //    int deposiyAmount = 29000;
+  //      int total = 0;
+   //     for (int i = 1; i <= 12; i++) {
+    //        total = total + deposiyAmount;
+    //        System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей"); }
+ // сделал это чтобы для себя видеть полностью код предыдущей задачи и чтобы переменные не пересекались
+
+        //Задание 2.
+        System.out.println("Циклы ч.1. ДЗ-3. Задача 2");
         int deposiyAmount = 29000;
         int total = 0;
         for (int i = 1; i <= 12; i++) {
+            total = total + total / 100;
             total = total + deposiyAmount;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рублей"); }
-
 
 
 
